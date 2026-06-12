@@ -80,6 +80,10 @@
         "geo":{
             "title":"Geodaten hinzufügen",
             "subtitle": "Beginne mit dem Suchen und Hinzufügen eines Geodaten aus dem Katalog."
+        },
+        "things":{
+            "title":"Sensordaten hinzufügen",
+            "subtitle": "Beginne mit dem Suchen und Hinzufügen von Sensordaten aus dem Katalog."
         }
     },
     "added-datasets":{
@@ -100,7 +104,8 @@
             "type":"Typ",
             "source":"Quelle",
             "geometry":"Geometrie",
-            "time":"Zeit"
+            "time":"Zeit",
+            "category":"Kategorie"
         },
         "results": "Ergebnisse",
         "custom":{
@@ -110,7 +115,8 @@
         },
         "metadata":{
             "title":"Metadaten",
-            "empty-msg": "Keine Metadaten verfügbar für"
+            "empty-msg": "Keine Metadaten verfügbar für",
+            "missing-info": "Fehlende Angaben"
         }
 
     },
@@ -122,7 +128,8 @@
         },
         "add": "Indikator hinzufügen",
         "formula": "Formel",
-        "calculate": "Kalkulieren"
+        "calculate": "Kalkulieren",
+        "add-layer": "Layer hinzufügen"
     },
     "dataset":{
         "year-filter-title":"Jahr auswählen",
@@ -188,6 +195,15 @@
         "details": "Details/Zusatzinfos",
         "dct_type": "Datensatztyp",
         "imported": "Importdatum"
-
+    },
+    "chart": {
+        "interval": "Zeitraum",
+        "nodata": "Keine Daten für den ausgewählten Zeitraum",
+        "6h": "Letzten 6 Stunden",
+        "24h": "Letzten 24 Stunden",
+        "3d": "Letzten 3 Tage",
+        "7d": "Letzten 7 Tage",
+        "30d": "Letzten 30 Tage",
+        "90d": "Letzten 90 Tage"
     }
   }

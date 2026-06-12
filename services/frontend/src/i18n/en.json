@@ -80,6 +80,10 @@
         "geo":{
             "title":"Add geodata",
             "subtitle": "Start by searching and adding a geodata from the library."
+        },
+        "things":{
+            "title":"Add sensor data",
+            "subtitle": "Start by searching an adding an observed property of a sensor from the library"
         }
     },
     
@@ -101,7 +105,8 @@
             "type":"Type",
             "source":"Source",
             "geometry":"Geometry",
-            "time":"Time"
+            "time":"Time",
+            "category":"Category"
         },
         "results": "Results",
         "custom":{
@@ -111,7 +116,8 @@
         },
         "metadata":{
             "title":"Metadata",
-            "empty-msg": "No metaData available for"
+            "empty-msg": "No metaData available for",
+            "missing-info": "Missing Information"
         }
 
     },
@@ -123,7 +129,8 @@
         },
         "add": "Add Indicator",
         "formula": "Formula",
-        "calculate": "Calculate"
+        "calculate": "Calculate",
+        "add-layer": "Add Layer"
     },
     "dataset":{
         "year-filter-title":"Select Year",
@@ -189,8 +196,15 @@
         "details": "details",
         "dct_type": "Dataset Type",
         "imported": "Import date"
-
-
-
+    },
+    "chart": {
+        "interval": "time interval",
+        "nodata": "No data available for the selected period.",
+        "6h": "Last 6 hours",
+        "24h": "Last 24 hours",
+        "3d": "Last 3 days",
+        "7d": "Last 7 days",
+        "30d": "Last 30 days",
+        "90d": "Last 90 days"
     }
   }
